@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Healthy G</string>
+
+    <string name="play_game_button">Play Game</string>
+    <string name="how_to_play_button">Tutorial</string>
+</resources>

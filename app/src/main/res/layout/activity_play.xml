@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_play"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="ph.edu.upm.agila.themeanproject.PlayActivity">
+
+    <ImageButton
+            android:id="@+id/food_in_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageButton
+                android:id="@+id/go_button"
+                android:background="@drawable/go"
+                android:layout_width="150dip"
+                android:layout_height="100dip"
+                android:layout_gravity="center"/>
+
+        <ImageButton
+                android:id="@+id/grow_button"
+                android:background="@drawable/grow"
+                android:layout_width="150dip"
+                android:layout_height="100dip"
+                android:layout_gravity="center"/>
+
+        <ImageButton
+                android:id="@+id/glow_button"
+                android:background="@drawable/glow"
+                android:layout_width="150dip"
+                android:layout_height="100dip"
+                android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/score_view"
+                android:layout_width="50dip"
+                android:layout_height="48dip"
+                android:layout_alignParentLeft="true"/>
+
+        <ImageButton
+                android:id="@+id/trash_can"
+                android:background="@drawable/trash"
+                android:layout_width="50dip"
+                android:layout_height="48dip"
+                android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
